@@ -3,6 +3,13 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Link } from "react-router-dom";
 import styles from "./FM_N_Challenge_2.module.scss";
 
+// Name             : NFT preview card component
+// Level            : Newbie
+// From             : https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U
+// Description      : This challenge is a simple card with hover.
+// Created Date     : 09/03/2022
+// Last Update Date : 09/03/2022
+
 const IconClock = () => (
   <svg width="17" height="17" xmlns="http://www.w3.org/2000/svg">
     <path
