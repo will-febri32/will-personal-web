@@ -9,6 +9,9 @@ import Home from "./pages/Home";
 const FM_N_Challenge_1 = lazy(() =>
   import("./pages/challenge/frontend-mentor/newbie/1/FM_N_Challenge_1")
 );
+const FM_N_Challenge_2 = lazy(() =>
+  import("./pages/challenge/frontend-mentor/newbie/2/FM_N_Challenge_2")
+);
 
 function App() {
   return (
@@ -25,6 +28,14 @@ function App() {
                 </Suspense>
               }
               path="1"
+            />
+            <Route
+              element={
+                <Suspense fallback={null}>
+                  <FM_N_Challenge_2 />
+                </Suspense>
+              }
+              path="2"
             />
           </Route>
         </Route>
